@@ -1,16 +1,17 @@
 {
   "name": "ochi",
+  "homepage": "https://futxedits.github.io/Ochi_Design",
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "deploy": "gh-pages -d dist"
-}
-,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build", 
+    "deploy" : "gh-pages -d dist"
+  },
   "dependencies": {
     "framer-motion": "^12.23.12",
     "gsap": "^3.13.0",
