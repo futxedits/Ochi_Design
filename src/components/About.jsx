@@ -15,7 +15,7 @@ function About() {
         </button>
         </div>
 <div className="w-1/2 h-[70vh] rounded-3xl bg-[#43492e] ">
-  <img src="ochi_img.jpg" alt="Description" className="w-full h-full object-cover rounded-3xl" />
+<img src="/Ochi_Design/ochi_img.jpg" alt="Description" className="w-full h-full object-cover rounded-3xl" />
 </div>
       </div>
     </div>
